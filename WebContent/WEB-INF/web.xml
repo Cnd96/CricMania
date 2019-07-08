@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>CricketApp</display-name>
+
+	<servlet>
+	   <servlet-name>TestRanks</servlet-name>
+	   <servlet-class>controllers.TestRankController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	   <servlet-name>TestRanks</servlet-name>
+	   <url-pattern>/TestRanks</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+	   <servlet-name>OdiRanks</servlet-name>
+	   <servlet-class>controllers.OdiRankController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	   <servlet-name>OdiRanks</servlet-name>
+	   <url-pattern>/OdiRanks</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	   <servlet-name>SearchPlayer</servlet-name>
+	   <servlet-class>controllers.SearchPlayerController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	   <servlet-name>SearchPlayer</servlet-name>
+	   <url-pattern>/SearchPlayer</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	   <servlet-name>EditPlayer</servlet-name>
+	   <servlet-class>controllers.EditPlayerController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	   <servlet-name>EditPlayer</servlet-name>
+	   <url-pattern>/EditPlayer</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	   <servlet-name>AddPlayer</servlet-name>
+	   <servlet-class>controllers.AddPlayerControll</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	   <servlet-name>AddPlayer</servlet-name>
+	   <url-pattern>/AddPlayer</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	   <servlet-name>Index</servlet-name>
+	   <servlet-class>controllers.IndexController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	   <servlet-name>Index</servlet-name>
+	   <url-pattern>/Index</url-pattern>
+	</servlet-mapping>
+
+</web-app>
